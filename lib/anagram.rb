@@ -9,7 +9,7 @@ class Anagram
     matched = []
     split_word = @word.split("")
     word_array.collect do |w|
-      if w.sort == split_word.sort
+      if w == split_word
         matched << w 
       end
     end 
