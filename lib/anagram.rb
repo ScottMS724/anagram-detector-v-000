@@ -13,6 +13,7 @@ class Anagram
         matched << w 
       end
     end 
+    matched
   end
   
 end 
