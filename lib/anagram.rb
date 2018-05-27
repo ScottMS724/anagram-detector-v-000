@@ -10,7 +10,7 @@ class Anagram
     split_word = @word.split("")
     split_word = split_word.sort
     word_array = word_array.sort
-    word_array.collect do |w|
+    word_array.each do |w|
       if w == split_word
         matched << w 
       end
