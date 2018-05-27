@@ -11,8 +11,6 @@ class Anagram
     word_array.collect do |w|
       if w == split_word
         matched << w 
-      else 
-        matched
       end
     end 
   end
